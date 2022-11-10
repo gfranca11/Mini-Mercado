@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/15c4ef3d44.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>mercado</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mobileButton">
+            <div>
+                <a href="#" onclick=" handleCloseMobileButton()">Produtos</a>  
+             <a href="#" onclick=" handleCloseMobileButton()">Area do cliente</a> 
+             <a href="#contacts" onclick=" handleCloseMobileButton()">Contatos</a> 
+            </div>
+        </div>
+        <header>
+            <div class="logo">
+                <h2>MERCADO FRANÇA</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="#">Produtos</a> </li>
+                    <li><a href="#">Area do cliente</a>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="account" onclick="handleOpenMobileButton()">
+                <button type="button"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </header>
+        <main>
+
+            <div class="title">
+                <h1>Produtos</h1>
+            </div>
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="assets/feijao.jpg" alt="imagem-jogo">
+                    <h3>Feijao</h3>
+                  
+                    <div class="prices">
+                        <span>R$ 12,90</span> <span>R$10,12</span>
+                    </div>
+                    <button id="opem" onclick="handModal()">Comprar</button>
+
+                </div>
+                <div class="card">
+                    <img src="assets/arroz.jpg" alt="">
+                    <h3>Arroz</h3>
+                    <div class="prices">
+                        <span>R$ 19,90</span> <span>R$12,20</span>
+                    </div>
+                    <button  onclick="handModal()">Comprar</button>
+
+                </div>
+                <div class="card">
+                <img src="assets/macarrao.jpg" alt="">
+                <h3>Macarrao</h3>
+                <div class="prices">
+                    <span>R$ 5,90</span> <span>R$3,20</span>
+                </div>
+                <button onclick="handModal()">Comprar</button>
+            </div>
+            <div class="card">
+            <img src="assets/sal.jpg" alt="">
+            <h3>Sal</h3>
+            <div class="prices">
+                <span>R$ 1,90</span> <span>R$0,90</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+
+        </div>
+        <div class="card">
+            <img src="assets/alface.jpg" alt="">
+            <h3>Alface</h3>
+            <div class="prices">
+                <span>R$ 3,90</span> <span>R$1,90</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+
+        </div>
+        <div class="card">
+            <img src="assets/azeite.png" alt="">
+            <h3>Azeite</h3>
+            <div class="prices">
+                <span>R$ 7,90</span> <span>R$5,90</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+
+        </div>
+        <div class="card">
+            <img src="assets/cebola.jpg" alt="">
+            <h3>Cebola</h3>
+            <div class="prices">
+                <span>R$ 3,90</span> <span>R$2,30</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+
+        </div>
+        <div class="card">
+            <img src="assets/cover.jpg" alt="">
+            <h3>Cove flor</h3>
+            <div class="prices">
+                <span>R$ 3,70</span> <span>R$1,45</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+
+        </div>
+        <div class="card">
+            <img src="assets/carne.jpg" alt="">
+            <h3>Contra-File</h3>
+            <div class="prices">
+                <span>R$ 43,90</span> <span>R$35,90</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+            
+
+        </div>
+        <div class="card">
+            <img src="assets/frango.jpg" alt="">
+            <h3>Frango</h3>
+            <div class="prices">
+                <span>R$ 20,90</span> <span>R$14,70</span>
+            </div>
+            <button onclick="handModal()">Comprar</button>
+
+                </div>
+                <div class="card">
+                    <img src="assets/salsisha.jpg" alt="">
+                    <h3>Salshisha</h3>
+                    <div class="prices">
+                        <span>R$ 12,50</span> <span>R$8,30</span>
+                    </div>
+                    <button onclick="handModal()">Comprar</button>
+                </div>
+                <div class="card">
+                    <img src="assets/linguica.jpg" alt="">
+                    <h3>Linguinça</h3>
+                    <div class="prices">
+                        <span>R$ 26,50</span> <span>R$18,90</span>
+                    </div>
+                    <button onclick="handModal()">Comprar</button>
+                </div>
+                
+
+        </main>
+        
+       <footer id="#contact">
+        
+        <div class="company">
+            <h2>Mercado França</h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veniam ratione eligendi quae error. Pariatur vitae, al.</p>
+        </div>
+        <div class="contacts">
+            <H2>Contatos</H2>
+            <span>company@email.com</span>
+            <span>0800-000-0000</span>
+            <span>Av. Exemplo Exemplo, 609</span>
+            
+        </div>
+        <div class="links">
+            <h2>Links</h2>
+            <li> <a href="#games">Produtos</a>  </li>
+                <li> <a href="#comments">Area do cliente</a> </li>
+                <li> <a href="#contacts">Contatos</a> </li>
+        </div>
+       </footer>
+       <section class="fadel " id="hide">
+       
+        <div class="modal " id="hide">
+            <div class="modal-header">
+                <h2>Cadastre-se</h2>
+
+            </div>
+            <div class="modal-body">
+                <label for="email">email</label>
+                <input type="text" name="" id="email">
+                <label for=" senha">senha</label>
+                <input type="password" name="" id="seha">
+                <div class="prices btn">
+                    <button>cadastrar</button> <button id="fechar" onclick="closeModal()">fechar</button>
+                </div>
+
+            </div>
+        </div>
+       </section>
+       <script src="src.js"></script>
+</body>
+
+</html>
