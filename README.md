@@ -9,7 +9,7 @@ MINI MERCARDO
   </h5>
 
 ## 🖥 Antevisão 
-<img src="https://github.com/gfranca11/Mini-loja/blob/main/Anima%C3%A7%C3%A3o.gif">
+<img src="https://github.com/gfranca11/Mini-Mercado/blob/main/Anima%C3%A7%C3%A3o.gif">
  
  📌 Ajustes e melhorias
  
